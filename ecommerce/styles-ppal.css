@@ -1,0 +1,179 @@
+
+/***************************************** HEADER **************************************/
+
+body{
+    background-image: url(https://images.pexels.com/photos/159833/book-reading-literature-classics-159833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#logo{
+    border-radius: 50%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    box-shadow: 0 0 40px lightgray;
+    background-image: url(https://tattooprod.com/wp-content/uploads/2015/06/background-paper-510x361.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+}
+
+#navMenu{
+    margin-top: 3%;
+}
+
+.dropdown-menu{
+    background-color: #F7DE9E;
+}
+
+#carrito{
+    width: 25px;
+}
+
+#buttonAccess{
+    padding: 8px;
+    background-color: #F7DE9E;
+    color: #c9655c;
+    height: 2.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#buttonAccess:hover{  
+    background-color: #E88C84;
+    color: #F7DE9E;
+}
+
+input{
+    width: 300px;
+}
+
+#buttonCart{
+    border: 1px solid transparent;
+    border-radius: 15%;
+    padding: 10px;
+    background-color: #F7DE9E;
+}
+
+#buttonCart:hover{  
+    background-color: #E88C84;
+    color: #F7DE9E;
+}
+
+#buttonLupa{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #F7DE9E;
+    background-image: url(images-book/lupa-icono1.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+#buttonLupa:hover{  
+    background-color: #E88C84;
+    color: #F7DE9E;
+}
+
+.btnModal{
+    background-color: #F7DE9E;
+    color: #E88C84;
+}
+
+.btnModal:hover{
+    background-color: #E88C84;
+    border: none;
+    color: #F7DE9E;
+}
+
+#btn-new{
+    background-color: #E88C84;
+    border: none;
+    color: #F7DE9E;
+}
+
+#btn-new:hover{
+    background-color: #F7DE9E;
+    color: #E88C84;
+}
+
+#note_pw{
+    color: gray;
+    font-size: 12px;
+}
+
+/***************************************** MAIN ****************************************/
+
+.img-fluid{
+    width: 70%;
+}
+
+.card-block{
+    background-image: url(https://tattooprod.com/wp-content/uploads/2015/06/background-paper-510x361.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+}
+
+h5{
+    font-size: 16px;
+}
+
+#buybutton{
+    background-color: #E88C84;
+    border: none;
+    color: #F7DE9E;
+}
+
+#buybutton:hover{
+    /* background-color: lightgoldenrodyellow; */
+    background-color: #F7DE9E;
+    color: #E88C84;
+    
+}
+
+/***************************************** FOOTER **************************************/
+
+#divFooter{
+    background-color: rgba(139, 155, 185, 0.541);
+    padding: 40px 60px 15px 60px;
+    color: whitesmoke;
+    font-size: 20px;
+    
+}
+
+#linkmaps{
+    color: whitesmoke;
+}
+
+#linkmaps:link{
+    text-decoration: none;
+    text-decoration-color: whitesmoke;
+}
+
+#linkmaps:hover{
+    color: #E88C84; 
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+.iconosocial{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+#idcopy{
+    font-size: 14px;
+    padding-bottom: 0;
+}
