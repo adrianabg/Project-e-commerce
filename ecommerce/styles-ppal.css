@@ -177,3 +177,19 @@ h5{
     font-size: 14px;
     padding-bottom: 0;
 }
+
+/***************************************** REGISTRATION **************************************/
+
+h1{
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#registerform{
+    background-color: rgba(139, 155, 185, 0.541);
+    padding: 40px 60px 15px 60px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px #000000;
+}
+
