@@ -35,8 +35,8 @@
                 <div class="modal-body"> <!-- form (validated JS) -->
                     <form name="contactForm" action="#" method="POST" onsubmit="return validateform()"> 
                         <!-- email -->
-                        <label for="email">Email Adress</label><br>
-                        <input type="text" name="contactEmail" class="form-control form-control-lg" placeholder="reader@thebookstall.com ">
+                        <label for="email">Email Adress</olabel><br>
+                        <input type="email" name="contactEmail" class="form-control form-control-lg" placeholder="reader@thebookstall.com ">
                         <br>
                         <!-- password -->
                         <label for="password">Password</label><br>
@@ -48,7 +48,9 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btnModal" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btnModal" id="btn-new" data-dismiss="modal">I'm new here</button>
+                    <a href="index-registre.html" target="_blank">
+                        <button type="button" class="btn btnModal" id="btn-new">I'm new here</button>
+                    </a>
                 </div>
             </div>
             </div>
@@ -92,9 +94,9 @@
 
     <!-- ******************** SEARCH BAR ROW ******************** -->
     <div class="container-fluid">
-            <form class="row justify-content-center form-inline my-2 my-lg-0">
-                <input class="col-7 col-md-4 form-control mr-sm-2" size="35" type="search" placeholder="Search">
-                <button id="buttonLupa" class="btn my-2 my-sm-0" type="submit"></button>
+            <form name="searchForm" action="#"  class="row justify-content-center form-inline my-2 my-lg-0" onsubmit="return validateSearch()" method="POST">
+                <input id="searchBox" name="searchBar" class="col-7 col-md-4 form-control mr-sm-2" size="35" type="search" placeholder="Search">
+                    <button id="buttonLupa" class="btn my-2 my-sm-0" type="submit"></button>
             </form>
     </div>
     <!-- ******************** // SEARCH BAR ROW ******************** -->
