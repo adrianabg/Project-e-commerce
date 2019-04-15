@@ -187,9 +187,14 @@ h1{
 }
 
 #registerform{
-    background-color: rgba(139, 155, 185, 0.541);
+    background-color: rgba(139, 155, 185, 0.715);
     padding: 40px 60px 15px 60px;
     color: whitesmoke;
     text-shadow: 2px 2px 2px #000000;
+}
+
+.text-danger{
+
+    text-shadow: none;
 }
 
